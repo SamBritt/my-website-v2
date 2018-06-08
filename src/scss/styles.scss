@@ -1,0 +1,76 @@
+// Variable Overrides
+
+
+
+html,body{
+  height: 100%;
+  width: 100%;
+  //background: #c5ebe2;
+
+}
+
+
+#home{
+  background: url(../img/comp.jpeg) no-repeat;
+  background-position: center;
+  background-size:cover;
+  background-attachment: fixed;
+  min-height: 600px;
+}
+#parallax2{
+  background: url(../img/comp2.jpeg)no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  min-height: 200px;
+}
+#canvas{
+  background: url(../img/board.jpeg) no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  min-height: 200px;
+}
+.landing-text{
+  position:absolute;
+  top: 50%;
+  left: 25%;
+  width: 100%;
+  text-align: center;
+}
+.landing-text h2{
+  font-size: 2rem;
+  font-weight: 500;
+  color: #FFF;
+
+}
+.padding{
+  padding: 20px 0;
+}
+
+.language, .art {
+  padding-top: 75px;
+  color: #EEEEEE;
+  font-size: 3rem;
+  font-stretch: expanded;
+}
+.card{
+  align-self: center;
+}
+
+.jumbotron{
+  background-color: #rgb(139, 221, 175);
+}
+
+footer{
+  width: 100%;
+  background: #434E5B;
+  padding: 5% 5% 10% 5%;
+}
+footer h3{
+  color:#EEEEEE;
+}
+// Bootstrap Sass Imports
+@import "node_modules/bootstrap/scss/bootstrap";
+@import "node_modules/bootstrap/scss/_custom.scss";
+@import "node_modules/bootstrap/scss/_variables.scss";
